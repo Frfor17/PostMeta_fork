@@ -3,21 +3,59 @@
 /turf/open/space/basic,
 /area/space)
 "b" = (
-/turf/closed/wall,
-/area/space)
-"c" = (
-/obj/machinery/stasis{
-	dir = 4
-	},
-/turf/open/floor/iron/white,
-/area/space)
-"d" = (
 /obj/structure/bed,
 /obj/item/bedsheet/centcom,
 /turf/open/floor/carpet/executive,
 /area/space)
+"c" = (
+/obj/effect/turf_decal/caution/stand_clear,
+/turf/open/floor/iron/small,
+/area/space)
+"d" = (
+/obj/effect/spawner/structure/window/reinforced/plasma,
+/turf/open/space/basic,
+/area/space)
+"e" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/security/glass{
+	id_tag = "outerbrig";
+	name = "Brig Cells"
+	},
+/turf/open/floor/plating,
+/area/space)
+"f" = (
+/obj/machinery/door/airlock/command{
+	name = "Council Chambers"
+	},
+/obj/effect/mapping_helpers/airlock/access/any/command/general,
+/turf/open/floor/wood/tile,
+/area/space)
+"g" = (
+/turf/closed/wall/r_wall,
+/area/space)
+"h" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/south,
+/obj/machinery/power/energy_accumulator/tesla_coil/anchored,
+/turf/open/floor/engine,
+/area/space)
 "i" = (
-/obj/structure/hedge,
+/obj/machinery/power/emitter/welded,
+/turf/open/floor/iron/small,
+/area/space)
+"j" = (
+/turf/open/floor/plating,
+/area/space)
+"k" = (
+/turf/open/floor/engine,
+/area/space)
+"l" = (
+/obj/structure/closet/secure_closet/captains,
+/turf/open/floor/carpet/executive,
+/area/space)
+"m" = (
+/obj/effect/turf_decal/tile/dark_red/fourcorners,
+/obj/effect/spawner/random/armory/laser_gun,
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/space)
 "n" = (
@@ -28,69 +66,157 @@
 /obj/machinery/door/airlock/medical/glass{
 	name = "Primary Treatment Centre"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/space)
 "p" = (
-/obj/structure/bookcase/random,
-/turf/open/floor/wood/tile,
-/area/space)
-"q" = (
-/turf/open/floor/iron/white,
-/area/space)
-"u" = (
-/obj/structure/chair,
-/turf/open/floor/carpet/executive,
-/area/space)
-"v" = (
-/obj/machinery/door/airlock/command{
-	name = "Council Chambers"
-	},
-/turf/open/floor/wood/tile,
-/area/space)
-"w" = (
 /obj/structure/table/glass,
 /obj/structure/secure_safe/caps_spare,
 /turf/open/floor/iron/dark/smooth_large,
 /area/space)
-"y" = (
-/turf/open/floor/plating,
-/area/space)
-"z" = (
-/obj/structure/closet/secure_closet/captains,
-/turf/open/floor/carpet/executive,
-/area/space)
-"B" = (
-/obj/structure/chair/comfy/carp{
-	dir = 1
+"r" = (
+/obj/effect/turf_decal/tile/dark_red/fourcorners,
+/obj/structure/cable,
+/obj/machinery/door/poddoor/shutters/window{
+	dir = 4;
+	id = "armory";
+	name = "Armory Shutters"
 	},
-/turf/open/floor/iron/dark/smooth_large,
-/area/space)
-"D" = (
-/obj/machinery/door/airlock/command/glass{
-	name = "Command Hallway"
-	},
-/turf/open/floor/iron/dark/smooth_large,
-/area/space)
-"H" = (
 /turf/open/floor/iron,
 /area/space)
-"K" = (
-/obj/machinery/computer/communications,
-/turf/open/floor/iron/dark/smooth_large,
+"s" = (
+/obj/effect/turf_decal/sand/plating,
+/turf/open/space/basic,
 /area/space)
-"L" = (
+"t" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/south,
+/obj/machinery/power/energy_accumulator/grounding_rod/anchored,
+/turf/open/floor/engine,
+/area/space)
+"u" = (
+/obj/machinery/door/airlock/external{
+	name = "Solar Maintenance"
+	},
+/turf/open/floor/plating,
+/area/space)
+"v" = (
+/obj/machinery/door/airlock/engineering/glass/critical{
+	heat_proof = 1;
+	name = "Supermatter Chamber"
+	},
+/turf/open/floor/engine,
+/area/space)
+"w" = (
+/obj/structure/cable,
+/turf/open/floor/iron/small,
+/area/space)
+"x" = (
 /obj/machinery/door/airlock/command{
 	name = "Council Chambers"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/command/captain,
 /turf/open/floor/wood/large,
 /area/space)
-"M" = (
+"y" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space)
+"z" = (
+/obj/structure/bookcase/random,
+/turf/open/floor/wood/tile,
+/area/space)
+"A" = (
+/obj/machinery/power/supermatter_crystal/engine,
+/turf/open/floor/engine,
+/area/space)
+"B" = (
+/obj/effect/spawner/structure/window/reinforced/plasma,
+/turf/open/floor/plating,
+/area/space)
+"C" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Command Hallway"
+	},
+/obj/effect/mapping_helpers/airlock/access/any/command/general,
+/obj/structure/cable,
 /turf/open/floor/iron/dark/smooth_large,
 /area/space)
+"D" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/space)
+"E" = (
+/turf/open/misc/asteroid/airless,
+/area/space)
+"F" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"G" = (
+/turf/open/floor/iron/small,
+/area/space)
+"H" = (
+/obj/machinery/door/airlock/engineering/glass/critical{
+	heat_proof = 1;
+	name = "Supermatter Chamber"
+	},
+/turf/open/floor/iron/small,
+/area/space)
+"I" = (
+/turf/closed/wall,
+/area/space)
+"J" = (
+/obj/effect/turf_decal/tile/dark_red/fourcorners,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/space)
+"K" = (
+/obj/structure/chair/comfy/carp{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"L" = (
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/space)
+"M" = (
+/obj/machinery/light/small/directional/east,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/space)
+"N" = (
+/turf/closed/mineral/random/stationside,
+/area/space)
 "O" = (
-/turf/closed/wall/r_wall,
+/obj/machinery/door/airlock{
+	name = "Maintenance"
+	},
+/turf/open/floor/plating,
 /area/space)
 "R" = (
+/obj/structure/chair,
+/turf/open/floor/carpet/executive,
+/area/space)
+"S" = (
+/obj/machinery/stasis{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/white,
+/area/space)
+"T" = (
+/obj/machinery/computer/communications,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"U" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/plating,
+/area/space)
+"V" = (
 /obj/structure/table/glass,
 /obj/item/folder/blue{
 	pixel_x = -3;
@@ -101,9 +227,25 @@
 	},
 /turf/open/floor/wood/tile,
 /area/space)
-"T" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/space/basic,
+"W" = (
+/obj/structure/hedge,
+/turf/open/floor/iron,
+/area/space)
+"X" = (
+/obj/structure/cable,
+/turf/open/floor/iron/white,
+/area/space)
+"Y" = (
+/obj/machinery/door/window/brigdoor/right/directional/west{
+	id = "Cell 3";
+	name = "Cell 3";
+	req_access = list("security")
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/small,
+/area/space)
+"Z" = (
+/turf/open/floor/iron,
 /area/space)
 
 (1,1,1) = {"
@@ -3814,10 +3956,10 @@ a
 a
 a
 a
-y
-y
-y
-y
+j
+j
+j
+j
 a
 a
 a
@@ -3916,11 +4058,11 @@ a
 a
 a
 a
-y
-y
-y
-y
-y
+j
+j
+j
+j
+j
 a
 a
 a
@@ -4018,11 +4160,11 @@ a
 a
 a
 a
-y
-y
-y
-y
-y
+j
+j
+j
+j
+j
 a
 a
 a
@@ -4120,11 +4262,11 @@ a
 a
 a
 a
-y
-y
-y
-y
-y
+j
+j
+j
+j
+j
 a
 a
 a
@@ -4222,11 +4364,11 @@ a
 a
 a
 a
-y
-y
-y
-y
-y
+j
+j
+j
+j
+j
 a
 a
 a
@@ -4325,10 +4467,10 @@ a
 a
 a
 a
-y
-y
-y
-y
+j
+j
+j
+j
 a
 a
 a
@@ -4434,9 +4576,9 @@ a
 a
 a
 a
-b
+I
 n
-b
+I
 a
 a
 a
@@ -4537,8 +4679,8 @@ a
 a
 a
 n
-c
-T
+S
+n
 a
 a
 a
@@ -4639,8 +4781,8 @@ a
 a
 a
 n
-q
-T
+X
+n
 a
 a
 a
@@ -4737,15 +4879,15 @@ a
 a
 a
 a
-a
-a
-a
-b
+I
+n
+n
+I
 o
-b
-a
-a
-a
+I
+n
+n
+I
 a
 a
 a
@@ -4839,18 +4981,18 @@ a
 a
 a
 a
-a
-H
-H
-H
-H
-H
-H
-H
-a
-a
-a
-a
+n
+L
+L
+L
+L
+L
+L
+L
+I
+I
+I
+I
 a
 a
 a
@@ -4939,20 +5081,20 @@ a
 a
 a
 a
-a
-a
-a
-H
+I
+n
+I
+L
+g
+n
+n
+n
+g
+L
 O
-n
-n
-n
-O
-H
-a
-a
-a
-a
+j
+j
+I
 a
 a
 a
@@ -5041,20 +5183,20 @@ a
 a
 a
 a
-a
-H
-H
-H
-O
-p
-u
+n
+L
+L
+L
+g
+z
 R
-O
-H
-a
-a
-a
-a
+V
+g
+L
+I
+I
+j
+I
 a
 a
 a
@@ -5143,20 +5285,20 @@ a
 a
 a
 a
-a
-H
-O
 n
-O
-O
-v
-O
-O
-H
-a
-a
-a
-a
+L
+g
+n
+g
+g
+f
+g
+g
+L
+Z
+I
+j
+I
 a
 a
 a
@@ -5241,24 +5383,24 @@ a
 a
 a
 a
+I
+D
+I
 a
-a
-a
-a
-a
-H
+I
+L
 n
 a
 n
-w
-M
-O
-i
-H
-a
-a
-a
-a
+p
+F
+g
+W
+L
+Z
+I
+j
+I
 a
 a
 a
@@ -5343,24 +5485,24 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-H
-n
-a
-n
-K
-B
 D
-H
-H
+m
+D
 a
+n
+L
+n
 a
-a
-a
+n
+T
+K
+C
+L
+L
+Z
+I
+j
+I
 a
 a
 a
@@ -5445,24 +5587,24 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-H
-O
+I
+r
+I
 n
-O
-O
+I
 L
-O
-i
-H
-a
-a
-a
-a
+g
+n
+g
+g
+x
+g
+W
+L
+I
+I
+j
+I
 a
 a
 a
@@ -5547,24 +5689,24 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-H
-H
-H
-O
-z
-d
-O
-H
-H
+n
+J
+J
+J
+e
+L
+L
+L
+g
+l
 b
-a
-a
-a
+g
+L
+L
+I
+j
+j
+I
 a
 a
 a
@@ -5649,24 +5791,24 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-H
-O
-O
-O
-O
-H
-b
-b
-a
-a
-a
+I
+Y
+I
+n
+I
+I
+I
+L
+g
+g
+g
+g
+L
+I
+I
+j
+j
+I
 a
 a
 a
@@ -5751,24 +5893,24 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-H
-H
-H
-H
-H
-H
-a
-a
-a
-a
-a
+D
+w
+D
+U
+j
+j
+O
+L
+L
+L
+M
+L
+L
+O
+j
+j
+j
+I
 a
 a
 a
@@ -5853,24 +5995,24 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+I
+D
+I
+I
+u
+I
+I
+I
+I
+H
+I
+I
+I
+I
+n
+I
+n
+I
 a
 a
 a
@@ -5955,20 +6097,20 @@ a
 a
 a
 a
+y
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+y
+I
+j
+j
+i
+c
+G
+j
+I
+E
 a
 a
 a
@@ -6057,21 +6199,21 @@ a
 a
 a
 a
+y
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+y
+I
+j
+g
+g
+v
+g
+E
+I
+N
+E
 a
 a
 a
@@ -6159,22 +6301,22 @@ a
 a
 a
 a
+y
+y
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+y
+I
+j
+h
+k
+k
+g
+s
+N
+N
+E
+E
 a
 a
 a
@@ -6262,21 +6404,21 @@ a
 a
 a
 a
+y
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+y
+I
+j
+t
+k
+A
+g
+s
+N
+N
+N
+E
 a
 a
 a
@@ -6364,21 +6506,21 @@ a
 a
 a
 a
+y
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+y
+I
+B
+g
+d
+g
+g
+N
+N
+N
+E
+E
 a
 a
 a
@@ -6466,20 +6608,20 @@ a
 a
 a
 a
+y
+a
+a
+y
 a
 a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+N
+N
+N
+N
+E
 a
 a
 a
@@ -6568,19 +6710,19 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+N
+N
+E
 a
 a
 a
@@ -6680,8 +6822,8 @@ a
 a
 a
 a
-a
-a
+E
+E
 a
 a
 a
