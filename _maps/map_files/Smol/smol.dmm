@@ -3,37 +3,105 @@
 /turf/open/space/basic,
 /area/space)
 "b" = (
-/obj/machinery/door/airlock/medical/glass{
-	name = "Primary Treatment Centre"
-	},
-/turf/open/floor/plating,
+/turf/closed/wall,
 /area/space)
-"d" = (
-/turf/open/floor/plating,
-/area/space)
-"q" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/space)
-"y" = (
-/turf/open/floor/iron,
-/area/space)
-"z" = (
+"c" = (
 /obj/machinery/stasis{
 	dir = 4
 	},
 /turf/open/floor/iron/white,
 /area/space)
-"O" = (
+"d" = (
+/obj/structure/bed,
+/obj/item/bedsheet/centcom,
+/turf/open/floor/carpet/executive,
+/area/space)
+"i" = (
+/obj/structure/hedge,
+/turf/open/floor/iron,
+/area/space)
+"n" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/space)
+"o" = (
+/obj/machinery/door/airlock/medical/glass{
+	name = "Primary Treatment Centre"
+	},
+/turf/open/floor/plating,
+/area/space)
+"p" = (
+/obj/structure/bookcase/random,
 /turf/open/floor/wood/tile,
 /area/space)
-"R" = (
+"q" = (
 /turf/open/floor/iron/white,
 /area/space)
-"Y" = (
-/turf/closed/wall,
+"u" = (
+/obj/structure/chair,
+/turf/open/floor/carpet/executive,
 /area/space)
-"Z" = (
+"v" = (
+/obj/machinery/door/airlock/command{
+	name = "Council Chambers"
+	},
+/turf/open/floor/wood/tile,
+/area/space)
+"w" = (
+/obj/structure/table/glass,
+/obj/structure/secure_safe/caps_spare,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"y" = (
+/turf/open/floor/plating,
+/area/space)
+"z" = (
+/obj/structure/closet/secure_closet/captains,
+/turf/open/floor/carpet/executive,
+/area/space)
+"B" = (
+/obj/structure/chair/comfy/carp{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"D" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Command Hallway"
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"H" = (
+/turf/open/floor/iron,
+/area/space)
+"K" = (
+/obj/machinery/computer/communications,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"L" = (
+/obj/machinery/door/airlock/command{
+	name = "Council Chambers"
+	},
+/turf/open/floor/wood/large,
+/area/space)
+"M" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"O" = (
+/turf/closed/wall/r_wall,
+/area/space)
+"R" = (
+/obj/structure/table/glass,
+/obj/item/folder/blue{
+	pixel_x = -3;
+	pixel_y = 2
+	},
+/obj/item/aicard{
+	pixel_y = 6
+	},
+/turf/open/floor/wood/tile,
+/area/space)
+"T" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/space/basic,
 /area/space)
@@ -3746,10 +3814,10 @@ a
 a
 a
 a
-a
-a
-a
-a
+y
+y
+y
+y
 a
 a
 a
@@ -3848,11 +3916,11 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
+y
+y
+y
+y
+y
 a
 a
 a
@@ -3950,11 +4018,11 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
+y
+y
+y
+y
+y
 a
 a
 a
@@ -4052,11 +4120,11 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
+y
+y
+y
+y
+y
 a
 a
 a
@@ -4154,11 +4222,11 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
+y
+y
+y
+y
+y
 a
 a
 a
@@ -4257,10 +4325,10 @@ a
 a
 a
 a
-a
-a
-a
-a
+y
+y
+y
+y
 a
 a
 a
@@ -4366,9 +4434,9 @@ a
 a
 a
 a
-Y
-q
-Y
+b
+n
+b
 a
 a
 a
@@ -4468,9 +4536,9 @@ a
 a
 a
 a
-q
-z
-Z
+n
+c
+T
 a
 a
 a
@@ -4570,9 +4638,9 @@ a
 a
 a
 a
+n
 q
-R
-Z
+T
 a
 a
 a
@@ -4672,9 +4740,9 @@ a
 a
 a
 a
-Y
 b
-Y
+o
+b
 a
 a
 a
@@ -4772,13 +4840,13 @@ a
 a
 a
 a
-a
-a
-y
-y
-y
-a
-a
+H
+H
+H
+H
+H
+H
+H
 a
 a
 a
@@ -4874,13 +4942,13 @@ a
 a
 a
 a
-a
-Y
-q
-q
-q
-Y
-a
+H
+O
+n
+n
+n
+O
+H
 a
 a
 a
@@ -4974,15 +5042,15 @@ a
 a
 a
 a
-a
-a
-a
-Y
+H
+H
+H
 O
+p
+u
+R
 O
-O
-Y
-a
+H
 a
 a
 a
@@ -5076,15 +5144,15 @@ a
 a
 a
 a
-a
-a
-a
-Y
-d
-d
-d
-Y
-a
+H
+O
+n
+O
+O
+v
+O
+O
+H
 a
 a
 a
@@ -5178,15 +5246,15 @@ a
 a
 a
 a
+H
+n
 a
-a
-a
-a
-a
-a
-a
-a
-a
+n
+w
+M
+O
+i
+H
 a
 a
 a
@@ -5280,15 +5348,15 @@ a
 a
 a
 a
+H
+n
 a
-a
-a
-a
-a
-a
-a
-a
-a
+n
+K
+B
+D
+H
+H
 a
 a
 a
@@ -5382,15 +5450,15 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+H
+O
+n
+O
+O
+L
+O
+i
+H
 a
 a
 a
@@ -5484,16 +5552,16 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+H
+H
+H
+O
+z
+d
+O
+H
+H
+b
 a
 a
 a
@@ -5588,14 +5656,14 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
+H
+O
+O
+O
+O
+H
+b
+b
 a
 a
 a
@@ -5690,12 +5758,12 @@ a
 a
 a
 a
-a
-a
-a
-a
-a
-a
+H
+H
+H
+H
+H
+H
 a
 a
 a
