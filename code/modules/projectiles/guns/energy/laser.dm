@@ -303,6 +303,10 @@
 	desc = "A laser gun modified to cost 20 credits to fire. Point towards poor people."
 	pin = /obj/item/firing_pin/paywall/luxury
 
+/obj/item/gun/energy/laser/aboba_laser
+	icon_state = "pulemet"
+	w_class = WEIGHT_CLASS_BULKY
+
 // The Deep Lore //
 
 // Laser Gun
